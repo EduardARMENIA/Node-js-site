@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
+  font-family: 20px'Quicksand', sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+#product{
+  border: solid;
+  color: #999999;
+}
+#thumbnail{
+  height:200px;
+  width:200px;
+}
+#index_img{
+  width: 100%;
+}
+.section-a{
+  margin: 2rem 0;
+}
+.section-a .container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+ul,li,a {
+    text-align: center;
+}
+
+
+/* media queries */
+@media(max-width: 700px){
+  .section-a .container{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .section-a .container div:first-child{
+    order: 2;
+  }
+  .section-a .container div:last-child{
+    order: -1;
+  }
+}
