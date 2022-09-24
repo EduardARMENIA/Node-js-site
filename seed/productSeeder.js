@@ -5,38 +5,38 @@ mongoose.connect('mongodb://localhost:27017/js_cart1',{ useNewUrlParser: true })
 
 const products = [
     new Product({
-    imagePath:'/images/glass1.jpg',
+    imagePath:'/images/banner_img.png',
     title:'glass_1',
     description:"the best",
     price:10.15
   }),
 
   new Product({
-  imagePath:'/images/glass1.jpg',
+  imagePath:'/images/banner_img.png',
   title:'glass_2',
   description:"the best",
   price:10
 }),
   new Product({
-  imagePath:'/images/glass1.jpg',
+  imagePath:'/images/banner_img.png',
   title:'glass_3',
   description:"the best",
   price:10
 }),
   new Product({
-  imagePath:'/images/glass1.jpg',
+  imagePath:'/images/banner_img.png',
   title:'glass_4',
   description:"the best",
   price:10
 }),
   new Product({
-  imagePath:'/images/glass1.jpg',
+  imagePath:'/images/banner_img.png',
   title:'glass_5',
   description:"the best",
   price:10
 }),
   new Product({
-  imagePath:'/images/glass1.jpg',
+  imagePath:'/images/banner_img.png',
   title:'glass_6',
   description:"the best",
   price:10
