@@ -15,31 +15,31 @@ const products = [
   imagePath:'/images/glass1.jpg',
   title:'glass_2',
   description:"the best",
-  price:10.11
+  price:10
 }),
   new Product({
   imagePath:'/images/glass1.jpg',
   title:'glass_3',
-  description:"it flies",
-  price:10.12
+  description:"the best",
+  price:10
 }),
   new Product({
   imagePath:'/images/glass1.jpg',
   title:'glass_4',
   description:"the best",
-  price:10.13
+  price:10
 }),
   new Product({
   imagePath:'/images/glass1.jpg',
   title:'glass_5',
   description:"the best",
-  price:10.45
+  price:10
 }),
   new Product({
   imagePath:'/images/glass1.jpg',
   title:'glass_6',
-  description:"it flies",
-  price:10.65
+  description:"the best",
+  price:10
   })
 ];
 
